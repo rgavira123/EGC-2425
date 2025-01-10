@@ -53,6 +53,6 @@ jobs:
     runs on: ubuntu-latest
 
     steps:
-      - name: Check outdated dependencies
+      - name: Check outdated dependencies with pip
         run: |
           pip list --outdated
