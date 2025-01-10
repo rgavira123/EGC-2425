@@ -1,0 +1,28 @@
+name: "Crear una Issue"
+description: "Plantilla para crear una nueva issue"
+labels: []
+assignees: []
+projects: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Crear una nueva Issue
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Descripción"
+      description: "Detalle completo del problema, mejora o tarea. Incluir contexto, objetivo y detalles relevantes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "Criterios de Aceptación (si aplica)"
+      description: "Definir las condiciones necesarias para considerar el issue resuelto."
+    validations:
+      required: false
+
