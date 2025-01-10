@@ -49,7 +49,7 @@ jobs:
 
   outdated_dependencies:
     needs: pytest
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Check outdated dependencies with pip
